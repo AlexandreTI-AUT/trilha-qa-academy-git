@@ -1,8 +1,0 @@
-Feature: Autenticação de Usuário
-
-    Scenario: Validar login com e-mail e senha obrigatórios
-        Given that the user is on the login page
-        When they enter valid email and password
-        And They user
-        And Conflict
-        Then access to the dashboard is granted
