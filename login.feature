@@ -4,4 +4,5 @@ Feature: Autenticação de Usuário
         Given that the user is on the login page
         When they enter valid email and password
         And They user
+        And Conflict
         Then access to the dashboard is granted
